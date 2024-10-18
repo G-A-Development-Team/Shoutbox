@@ -183,7 +183,7 @@ AimwareEvents.RegisterEvent("loop", function (){
                 chat.OnChat = function(msg){
                     $.Msg("sent msg")
                     SharedUI.CreatedPanels["browser"].RunJavaScript(`
-                        shoutbox.call.message.send("` + msg + `");
+                        shoutbox.call.message.send("[LUA] ` + msg + `");
                     `)
                 }
                 
