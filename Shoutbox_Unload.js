@@ -1,0 +1,2 @@
+SharedUI.UnregisterPanels()
+AimwareEvents.UnregisterEvents()
